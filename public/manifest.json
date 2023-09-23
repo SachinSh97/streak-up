@@ -1,25 +1,17 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "author":"keen_dev",
+  "name": "StreakUp",
+  "description": "Stay motivated and never miss a beat with StreakUp, your reliable companion for GitHub contribution streaks.",
+  "action": {
+    "default_title": "StreakUp - Stay motivated and never miss a beat with StreakUp, your reliable companion for GitHub contribution streaks.",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": ["storage", "notifications", "alarms", "idle"]
 }
