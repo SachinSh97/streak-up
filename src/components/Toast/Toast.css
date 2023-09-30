@@ -1,0 +1,27 @@
+.toast {
+  position: fixed;
+  bottom: 0;
+  border-radius: 4px;
+  width: calc(100% - 56px);
+  padding: 8px 14px;
+  margin: 14px;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(200%);
+}
+.toast.slide-in {
+  transform: translateY(0);
+}
+.toast.slide-out {
+  transform: translateY(200%);
+}
+.toast.error {
+  background-color: #c7152a;
+}
+.toast.success {
+  background-color: #248c46;
+}
+.toast .message {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e9e9ff;
+}

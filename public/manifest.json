@@ -1,17 +1,19 @@
 {
   "version": "1.0.0",
   "manifest_version": 3,
-  "author":"keen_dev",
-  "name": "StreakUp",
+  "name": "StreakUp - Github",
   "description": "Stay motivated and never miss a beat with StreakUp, your reliable companion for GitHub contribution streaks.",
   "action": {
     "default_title": "StreakUp - Stay motivated and never miss a beat with StreakUp, your reliable companion for GitHub contribution streaks.",
-    "default_popup": "index.html"
+    "default_popup": "popup.html"
   },
   "icons": {
     "16": "favicon.ico",
     "48": "logo.png",
     "128": "logo.png"
   },
-  "permissions": ["storage", "notifications", "alarms", "idle"]
+  "background": {
+    "service_worker": "static/js/background.js"
+  },
+  "permissions": ["storage", "notifications", "alarms"]
 }

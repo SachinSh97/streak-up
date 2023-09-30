@@ -1,0 +1,43 @@
+.login {
+  height: calc(100% - 80px);
+  padding: 40px 20px;
+}
+.login .login-header .logo {
+  width: 75px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.login .login-header .streak {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ff9704;
+  letter-spacing: 0.36px;
+}
+.login .login-header .up {
+  color: #ffffff;
+}
+.login .login-term-condition {
+  font-size: 12px;
+  font-weight: 300;
+  color: #e9e9ff;
+  line-height: 20px;
+  margin-top: 15px;
+  text-transform: capitalize;
+  letter-spacing: 0.36px;
+}
+.login .login-term-condition a {
+  font-weight: 600;
+  color: #ff9704;
+  text-decoration-line: underline;
+}
+.login .develop-by {
+  font-size: 12px;
+  font-weight: 300;
+  color: #e9e9ff;
+  margin-top: 20px;
+}
+.login .develop-by a {
+  font-weight: 500;
+  color: #e9e9ff;
+  text-decoration-line: underline;
+}

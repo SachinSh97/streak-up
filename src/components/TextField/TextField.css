@@ -1,0 +1,25 @@
+.textfield .textfield-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #e9e9ff;
+  margin-bottom: 10px;
+}
+.textfield .textfield-input {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+  padding: 12px 10px;
+  background-color: transparent;
+  border: 1px solid #ff9500;
+  border-radius: 4px;
+}
+.textfield .textfield-input.error {
+  border-color: #c7152a;
+}
+.textfield .textfield-input:focus-visible {
+  outline: none;
+}
+.textfield .textfield-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

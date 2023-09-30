@@ -1,0 +1,57 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.loader-wrapper {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+.loader-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(36, 36, 36, 0.98);
+  opacity: 0.7;
+}
+.loader .logo {
+  width: 75px;
+  height: 40px;
+}
+.bounce {
+  margin: 14px auto;
+  width: 70px;
+  text-align: center;
+}
+.bounce > div {
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(135deg, #ffcb82 0%, #ff9b0f 49.21%, #ffb44a 100%);
+  border-radius: 100%;
+  display: inline-block;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.bounce .bounce1 {
+  animation-delay: -0.32s;
+}
+.bounce .bounce2 {
+  animation-delay: -0.24s;
+}
+.bounce .bounce3 {
+  animation-delay: -0.16s;
+}
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}

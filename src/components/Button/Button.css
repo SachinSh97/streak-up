@@ -1,0 +1,28 @@
+.contained-btn {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: #ff9500;
+  border: 1px solid #ff9500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contained-btn .content {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e9e9ff;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.contained-btn:hover {
+  background-color: #ffa500;
+}
+.contained-btn .start-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+}
+.contained-btn .start-icon img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+.animation {
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+.animation.fade-in {
+  opacity: 1;
+}
+.animation.fade-out {
+  opacity: 0;
+}

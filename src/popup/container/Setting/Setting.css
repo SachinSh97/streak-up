@@ -1,0 +1,32 @@
+.settings {
+  width: calc(100% - 32px);
+  height: calc(100% - 32px);
+  padding: 16px;
+  overflow: scroll;
+}
+.settings-header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9e9ff;
+}
+.settings-header .back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.7));
+}
+.settings-list {
+  flex: 1;
+  margin-top: 24px;
+}
+.settings-list .label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #e9e9ff;
+}
+.settings-list .description {
+  font-size: 10px;
+  font-weight: 600;
+  color: #8e8e8e;
+  margin-top: 4px;
+}
